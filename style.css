@@ -1,0 +1,74 @@
+body {
+    background-color: #fff;
+    margin: 0;
+}
+
+header {
+    /* background-image: url("Dental-Chair-.jpg"); */
+    background: linear-gradient(to right, #9cecfb, #65c7f7, #0052d4);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    display: flex;
+    min-height: 100vh;
+   flex-direction: column;
+}
+
+header .content {
+    margin: auto;
+}
+
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+    width: 600px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: rgba(0,0,0,.1);
+}
+
+nav .logo {
+    font-size: 2rem;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    text-decoration: none;
+    list-style-type: none;
+   
+}
+
+nav li a {
+    color: white;
+    padding: .5rem;
+    text-decoration: none;
+    
+}
+
+.highlight{
+    background-color: rgba(39, 80, 145);
+  
+}
+
+footer {
+    background-color: rgba(39, 80, 145);
+    color: white;
+    height: 100px;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 1rem;
+}
