@@ -1,81 +1,97 @@
-body {
+* {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
-header {
-    /* background-image: url("Dental-Chair-.jpg"); */
-    background: linear-gradient(to right, #9cecfb, #65c7f7, #0052d4);
-    background-size: cover;
-    background-position: center center;
-    color: white;
-    display: flex;
-    min-height: 100vh;
-   flex-direction: column;
+body{
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
 }
 
-header .home-content {
-    margin: auto;
-}
-
-.container{
-    max-width: 100%;
-    margin: 0 auto;
-    width: 600px;
-   
-}
-
-.container p{
-   max-width: 400px;
-}
-
-.container a{
-    text-decoration: none;
-    cursor: pointer;
-    color: white;
-}
-
-/* NAV */
-nav {
+section{
+    position: relative;
+    width: 100%;
+    min-width: 100vh;
+    padding: 100px;
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
-    /* background-color: rgba(0,0,0,.1); */
+    align-items: center;
 }
 
-nav .logo {
-    font-size: 2rem;
-}
-
-nav ul {
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
     display: flex;
-    list-style-type: none;
-    padding: 0;
-}
-
-nav li {
-    text-decoration: none;
-    list-style-type: none;
-   
-}
-
-nav li a {
-    color: white;
-    padding: .5rem;
-    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
     
 }
 
-.highlight{
-    background-color: rgba(39, 80, 145);
-  
+.logo{
+    position: relative;
+    max-width: 80px;
 }
 
+header nav{
+    position: relative;
+    display: flex;
+    
+}
+
+header nav li {
+    list-style: none;
+}
+
+header nav li a{
+    display: inline-block;
+    font-weight: 400;
+    margin-left: 80px;
+    text-decoration: none;
+    color: white;
+}
+
+.main-content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-content .textBox{
+    position: relative;
+    max-width: 500px;
+}
+
+.main-content .textBox h2{
+    font-size: 2.5rem;
+    line-height: 1.4rem;
+    font-weight: 500;
+    padding: 1rem;
+}
+
+.main-content .textBox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+
+
+
+
 /* FOOTER */
-footer {
+/* footer {
     background-color: rgba(39, 80, 145);
     color: white;
     height: 100px;
+    
 }
 
 footer ul {
@@ -84,4 +100,4 @@ footer ul {
     justify-content: space-between;
     list-style-type: none;
     padding: 1rem;
-}
+} */
