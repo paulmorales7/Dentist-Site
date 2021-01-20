@@ -1,5 +1,5 @@
 body {
-    background-color: #fff;
+    padding: 0;
     margin: 0;
 }
 
@@ -14,7 +14,7 @@ header {
    flex-direction: column;
 }
 
-header .content {
+header .home-content {
     margin: auto;
 }
 
@@ -22,13 +22,25 @@ header .content {
     max-width: 100%;
     margin: 0 auto;
     width: 600px;
+   
 }
 
+.container p{
+   max-width: 400px;
+}
+
+.container a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+/* NAV */
 nav {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
-    background-color: rgba(0,0,0,.1);
+    /* background-color: rgba(0,0,0,.1); */
 }
 
 nav .logo {
@@ -59,6 +71,7 @@ nav li a {
   
 }
 
+/* FOOTER */
 footer {
     background-color: rgba(39, 80, 145);
     color: white;
