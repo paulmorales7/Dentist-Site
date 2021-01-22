@@ -5,7 +5,9 @@
 }
 
 body{
-    background: linear-gradient(to right, #e0eafc, #cfdef3);
+  
+    /* background:linear-gradient(to right, #4b79a1, #283e51); */
+    background-color: #343148ff;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -25,26 +27,43 @@ header {
     left: 0;
     width: 100%;
     padding: 20px 100px;
-    height: 35%;
-    background-color: white;  
+    height:15%;
+    /* background-color: #f6f6f2;   */
+    background-color: white;
+    z-index: 1;
+    
+}
+
+.buttonNav{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px 100px;
+        height:20%;
+        background-color: #595577;
+       
+
 }
 
 header .logo{
     position: absolute;
-  bottom: 25px;
+  top: -41px;
  left: 40%;
+ width: 234px;
 
 }
 
 header nav{
     position: relative;
     display: flex;
-    top: 150px;
-   left: 20%;
+    top: 77px;
+   left: 17%;
 }
 
 header nav li {
     list-style: none;
+    
 }
 
 header nav li a{
@@ -52,7 +71,9 @@ header nav li a{
     font-weight: 400;
     margin-left: 80px;
     text-decoration: none;
-    color: black;
+    color: white;
+   
+   
 }
 
 .main-content{
@@ -61,11 +82,22 @@ header nav li a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    top: 80px;
+    left: 50px;
+}
+
+.main-content .imgBox{
+    position: relative; 
+    top: 54px;
+    left: 20px;
+
+ z-index: 2;
 }
 
 .main-content .textBox{
     position: relative;
-    max-width: 500px;
+    max-width: 450px;
+    color: white;
 }
 
 .main-content .textBox h2{
@@ -73,6 +105,7 @@ header nav li a{
     line-height: 1.4rem;
     font-weight: 500;
     padding: 1rem;
+    
 }
 
 .main-content .textBox a{
@@ -80,7 +113,8 @@ header nav li a{
     margin-top: 20px;
     padding: 8px 20px;
     border-radius: 40px;
-    background: linear-gradient(to right, #4b79a1, #283e51);
+    /* background: linear-gradient(to right, #c8c1ff, #595577); */
+    background-color: #d7c49eff;
     font-weight: 500;
     letter-spacing: 1px;
     text-decoration: none;
@@ -89,12 +123,12 @@ header nav li a{
 
 .circle{
     position: absolute;
-    top: 0;
-    left: 0;
+   top: 5%;
     width: 100%;
     height: 100%;
-    background:linear-gradient(to right, #4b79a1, #283e51);
-    clip-path: circle(700px at right);
+    /* background: linear-gradient(to right, #e0eafc, #cfdef3); */
+    background-color: #d7c49eff;
+    clip-path: circle(800px at right);
 }
 
 
